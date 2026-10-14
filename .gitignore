@@ -1,0 +1,27 @@
+# Build and Executable Artifacts
+*.exe
+*.o
+*.obj
+*.pdb
+*.ilk
+bin/
+build/
+
+# IDE and Editor configurations
+.vscode/*
+!.vscode/tasks.json
+!.vscode/c_cpp_properties.json
+!.vscode/launch.json
+.idea/
+*.sublime-workspace
+
+# Runtime generated data
+*.log
+*.dump
+data/
+logs/
+
+# Temporary / OS files
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/

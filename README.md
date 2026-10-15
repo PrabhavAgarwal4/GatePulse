@@ -82,7 +82,7 @@ flowchart TD
 - [x] **FR2:** Token Bucket Rate Limiting — Lazy chrono refill, burst capacity, and per-client isolation
 - [x] **FR3:** Consistent Hash Load Balancing — Virtual nodes on 2³²−1 ring, failover & health management
 - [x] **FR4:** Middleware Pipeline — Chain of Responsibility with short-circuiting, auth, CORS & latency tracking
-- [ ] **FR5:** TCP Socket Reverse Proxying
+- [x] **FR5:** TCP Socket Reverse Proxying — Raw Winsock socket forwarding, HTTP/1.1 parsing & live upstream relay
 
 ---
 
@@ -93,6 +93,8 @@ Every architectural decision and interview "WHY" is documented in depth:
 * [02. Token Bucket Rate Limiting & std::chrono Internals](learning/02_token_bucket_rate_limiting.md)
 * [03. Consistent Hashing, Virtual Nodes, & Upstream Health Management](learning/03_consistent_hashing_and_load_balancing.md)
 * [04. The Middleware Pipeline & Chain of Responsibility Pattern](learning/04_middleware_pipeline_and_chain_of_responsibility.md)
+* [05. Computer Networks — L7 Reverse Proxying, Winsock RAII, & Stream Framing](learning/05_computer_networks_tcp_reverse_proxy_and_l7.md)
+
 
 
 

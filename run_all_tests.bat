@@ -22,8 +22,13 @@ echo [4/5] Compiling and running Milestone 4 (Middleware Pipeline)...
 call build.bat tests/test_middleware.cpp -o bin/test_middleware.exe && bin\test_middleware.exe
 if %ERRORLEVEL% NEQ 0 ( echo [FAILED] Milestone 4 failed! & exit /b 1 )
 
+echo.
+echo [5/5] Compiling and running Milestone 5 (TCP Reverse Proxy)...
+call build.bat tests/test_tcp_proxy.cpp -o bin/test_tcp_proxy.exe && bin\test_tcp_proxy.exe
+if %ERRORLEVEL% NEQ 0 ( echo [FAILED] Milestone 5 failed! & exit /b 1 )
 
 echo.
 echo ========================================================
-echo   ALL MILESTONES PASSED!                                
+echo   CONGRATULATIONS! ALL 5 CS MILESTONES PASSED (100%%)   
 echo ========================================================
+

@@ -81,7 +81,7 @@ flowchart TD
 - [x] **FR1:** Trie Route Matching — Segment-based Trie with param extraction & wildcard support
 - [x] **FR2:** Token Bucket Rate Limiting — Lazy chrono refill, burst capacity, and per-client isolation
 - [x] **FR3:** Consistent Hash Load Balancing — Virtual nodes on 2³²−1 ring, failover & health management
-- [ ] **FR4:** Middleware Pipeline
+- [x] **FR4:** Middleware Pipeline — Chain of Responsibility with short-circuiting, auth, CORS & latency tracking
 - [ ] **FR5:** TCP Socket Reverse Proxying
 
 ---
@@ -92,6 +92,8 @@ Every architectural decision and interview "WHY" is documented in depth:
 * [01. Trie Routing, Prefix Trees, & Radix Trees](learning/01_trie_routing_and_prefix_trees.md)
 * [02. Token Bucket Rate Limiting & std::chrono Internals](learning/02_token_bucket_rate_limiting.md)
 * [03. Consistent Hashing, Virtual Nodes, & Upstream Health Management](learning/03_consistent_hashing_and_load_balancing.md)
+* [04. The Middleware Pipeline & Chain of Responsibility Pattern](learning/04_middleware_pipeline_and_chain_of_responsibility.md)
+
 
 
 ---

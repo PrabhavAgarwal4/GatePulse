@@ -17,6 +17,11 @@ echo [3/5] Compiling and running Milestone 3 (Load Balancer)...
 call build.bat tests/test_load_balancer.cpp -o bin/test_load_balancer.exe && bin\test_load_balancer.exe
 if %ERRORLEVEL% NEQ 0 ( echo [FAILED] Milestone 3 failed! & exit /b 1 )
 
+echo.
+echo [4/5] Compiling and running Milestone 4 (Middleware Pipeline)...
+call build.bat tests/test_middleware.cpp -o bin/test_middleware.exe && bin\test_middleware.exe
+if %ERRORLEVEL% NEQ 0 ( echo [FAILED] Milestone 4 failed! & exit /b 1 )
+
 
 echo.
 echo ========================================================
